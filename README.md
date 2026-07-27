@@ -68,9 +68,11 @@ Evaluating both classifiers on the 20% test dataset yielded the following metric
 | **Random Forest (100 estimators)** | 84.35% | 54.55% | 12.77% | 20.69% |
 
 ### Visualizations
-The project generates two visualization plots:
-1. `confusion_matrices.png`: Shows the confusion matrices for both models side-by-side.
-2. `rf_feature_importance.png`: Displays the top 15 most important features for predicting attrition.
+The project generates and embeds two visualization plots:
+1. **Confusion Matrices Plot (`confusion_matrices.png`)**: Shows the confusion matrices for both models side-by-side.
+   ![Confusion Matrices](confusion_matrices.png)
+2. **Feature Importance Plot (`rf_feature_importance.png`)**: Displays the top 15 most important features for predicting attrition.
+   ![Random Forest Feature Importance](rf_feature_importance.png)
 
 ---
 
